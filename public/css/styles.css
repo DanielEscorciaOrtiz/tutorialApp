@@ -1,0 +1,41 @@
+:root {
+    --baseColor: #0a2704;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    /*To grab the whole page (100% V_iew H_eight)*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mainContent {
+    flex-grow: 1;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--baseColor);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1em;
+    border-left: 1px solid var(--baseColor);
+}
+
+form input,
+form button{
+border: 1px solid var(--baseColor);
+border-radius: 1em;
+padding: 0.5em;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    color: var(--baseColor);
+}
